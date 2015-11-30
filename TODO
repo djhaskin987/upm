@@ -1,0 +1,12 @@
+* add generic downloader and get_available_versions to do the "sane" thing with autoindexing/json queries.
+* Add one of the above that checks all urls first, then sorts by version. look_at_list_collectively
+* Add one of the above that checks each url in turn, finding only available versions and
+  stops at first URL that has any for it. look_at_list_priority
+* add generic pip package_manager that can be parameterized by one of the above
+  to avoid pip's nonsense
+* add yum package_manager (parameterizable by priority or total)
+* add apt package_manager (parameterizable by priority or total)
+* add gem package_manager                  "
+* add yaourt package_manager               "
+* Add defaults for all of the above
+* add frontend CLI interface as well

@@ -1,0 +1,17 @@
+\#*
+.#*
+.*#
+.*.sw[a-z]
+*~
+.*~
+*.gch
+*.o
+*.a
+*.la
+*.dll
+*.so
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
